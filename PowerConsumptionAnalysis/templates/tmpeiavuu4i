@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	input {
+    		display: block;
+    		width: 400px;
+		height: 20px;
+    		padding: 0 20px;
+	}
+	::placeholder {
+  		font-size : 15px;
+	}
+	.button {
+ 		background-color: Brown;
+  		color: white;
+		width: 90px;
+		height: 30px;
+  		font-size: 15px;
+	}
+	
+   
+
+</style>
+</head>
+<body style = "background-color: Gold;">
+
+<h2>Power Consumption Analysis</h2>
+
+<form action="result.html" method="post">
+ 
+  <input type="text" id="reactive" name="power" placeholder="Enter the Global reactive power value(0-1)"><br><br>
+  <input type="text" id="intensity" name="value" placeholder="Enter the Global intensity value"><br><br>
+  <input type="text" id="Submeter1" name="reading1" placeholder="Enter the Submeter Reading 1"><br><br>
+  <input type="text" id="Submeter2" name="reading2" placeholder="Enter the Submeter Reading 2"><br><br>
+  <input type="text" id="Submeter3" name="reading3" placeholder="Enter the Submeter Reading 3"><br><br>
+  
+  <a href="result.html"><button class= "button" value="Predict">Predict</button></a>  
+
+</form> 
+
+
+</body>
+</html>
